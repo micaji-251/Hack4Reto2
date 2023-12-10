@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Nunito:ital,wght@0,300;0,400;0,500;0,700;1,300;1,700&display=swap');
+/*  font-family: 'Fraunces', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;*/
+
+/* ## Body
+
+- Very dark blue (body background):
+  background-color: hsl(233, 47%, 7%);
+
+## Colors
+
+- Dark desaturated blue (card background):
+  background-color: hsl(244, 38%, 16%);
+- Soft violet (accent):
+  color: hsl(277, 64%, 61%);
+- Slightly transparent white (stat headings):
+  color: hsla(0, 0%, 100%, 0.6);
+ */
+
+ /* ### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+ */
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+ }
+
+body{
+  width: 375px; 
+  background-color: hsl(233, 47%, 7%);
+  padding: 15px 35px;
+}
+
+.introduction{
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    width: 320px;
+    border-radius: 0 0 10px 10px;
+}
+
+.imagepart{
+    width: 320px;
+    border-radius: 10px 10px 0 0; 
+}
+
+.textpart{
+    border-radius: 0 0 10px 10px;
+    padding: 25px 25px;
+    border: 5px 5px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.textpart h1{
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+}
+
+.purpletext{
+    color: hsl(277, 64%, 61%);
+}
+
+.description{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+.textpart .description2{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.8rem;
+}
+
+.textpart .description3{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
